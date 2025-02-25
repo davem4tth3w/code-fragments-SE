@@ -264,15 +264,16 @@ if(isset($_POST['btn_action']))
 
 
 
-	// 	if($_POST['btn_action'] == 'delete')
-	// {
-	// 	$query = "
-	// 	DELETE FROM inventory_order 
-	// 	WHERE inventory_order_id = :inventory_order_id
-	// 	";
+		if($_POST['btn_action'] == 'delete')
+	{
+		$query = "
+		DELETE FROM inventory_order 
+		WHERE inventory_order_id = :inventory_order_id
+		";
 	
-	// }
+	}
 
+		//NEW CODE
 }
 
 ?>
